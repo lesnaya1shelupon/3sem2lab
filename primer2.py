@@ -10,6 +10,7 @@ if __name__ == '__main__':
             print('[*] Время выполнения: {} секунд.'.format(end-start))
         return wrapper
 
+    
     @benchmark
     def fetch_webpage():
         import requests
