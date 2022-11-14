@@ -11,6 +11,7 @@ if __name__ == '__main__':
             return return_value
         return wrapper
 
+    
     @benchmark
     def fetch_webpage(url):
         import requests
