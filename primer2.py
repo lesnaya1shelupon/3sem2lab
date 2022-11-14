@@ -11,8 +11,6 @@ if __name__ == '__main__':
         return wrapper
 
     @benchmark
-
-
     def fetch_webpage():
         import requests
         webpage = requests.get('https://google.com')
