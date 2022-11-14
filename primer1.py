@@ -10,6 +10,7 @@ if __name__ == '__main__':
             print('Выходим из обёртки')
         return wrapper
 
+    
     @decorator_function
     def hello_world():
         print('Hello world!')
