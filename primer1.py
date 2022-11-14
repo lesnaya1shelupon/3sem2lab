@@ -1,5 +1,9 @@
 if __name__ == '__main__':
+
+
     def decorator_function(func):
+
+
         def wrapper():
             print('Функция-обёртка!')
             print('Оборачиваемая функция: {}'.format(func))
@@ -9,6 +13,8 @@ if __name__ == '__main__':
         return wrapper
 
     @decorator_function
+
+
     def hello_world():
         print('Hello world!')
 
