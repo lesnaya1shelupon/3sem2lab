@@ -2,6 +2,7 @@ if __name__ == '__main__':
     def benchmark(func):
         import time
 
+
         def wrapper(*args, **kwargs):
             start = time.time()
             return_value = func(*args, **kwargs)
