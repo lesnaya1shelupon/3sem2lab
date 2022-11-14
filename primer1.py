@@ -11,8 +11,6 @@ if __name__ == '__main__':
         return wrapper
 
     @decorator_function
-
-
     def hello_world():
         print('Hello world!')
 
