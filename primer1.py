@@ -1,6 +1,4 @@
 if __name__ == '__main__':
-
-
     def decorator_function(func):
 
 
